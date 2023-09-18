@@ -1,3 +1,5 @@
 <%= form_with url: '/auth/developer', data: {turbo: false} do |form| %>
   <%= form.submit 'Login with Developer' %>
 <% end %>
+
+<%= button_to "Login via Twitter", "/auth/twitter2", method: :post, data: { turbo: false } %>
