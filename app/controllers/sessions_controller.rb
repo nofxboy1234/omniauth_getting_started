@@ -10,5 +10,7 @@ class SessionsController < ApplicationController
     user_info = request.env['omniauth.auth']
     # raise user_info # Your own session management should be placed here
     puts "user_info: #{user_info}"
+
+    redirect_to login_path
   end
 end
