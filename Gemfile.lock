@@ -156,6 +156,8 @@ GEM
     omniauth-rails_csrf_protection (1.0.1)
       actionpack (>= 4.2)
       omniauth (~> 2.0)
+    omniauth-twitch (1.2.0)
+      omniauth-oauth2 (~> 1.6)
     omniauth-twitter2 (0.1.0)
       omniauth
       omniauth-oauth2 (~> 1.0)
@@ -264,6 +266,7 @@ DEPENDENCIES
   jbuilder
   omniauth
   omniauth-rails_csrf_protection
+  omniauth-twitch
   omniauth-twitter2
   pry-byebug
   puma (~> 5.0)

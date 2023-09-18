@@ -76,3 +76,4 @@ gem 'pry-byebug'
 gem 'omniauth'
 gem "omniauth-rails_csrf_protection"
 gem 'omniauth-twitter2'
+gem 'omniauth-twitch'
